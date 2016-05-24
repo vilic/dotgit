@@ -19,7 +19,7 @@ export class DotGit {
     }
 
     private execSync(command: string): string {
-        return execSync(command, { cwd: this.cwd }).toString();
+        return execSync(command, { cwd: this.cwd }).toString().trim();
     }
 }
 
