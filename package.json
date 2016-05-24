@@ -1,0 +1,9 @@
+{
+  "name": "dotgit",
+  "version": "0.1.0",
+  "description": "A simple git repository utility for getting branch information.",
+  "author": "vilicvane",
+  "license": "MIT",
+  "main": "bld/index.js",
+  "typings": "bld/index.d.ts"
+}
